@@ -4,7 +4,7 @@
     "name": "Plants & Trees",
     "image": "plants",
     "alt": "Rows of mature potted trees at Evergreen nursery",
-    "intro": "Bring structure, shelter and life to your garden. Explore plants and trees at our Mott Street nursery, and speak to us about the right sizes for your space.",
+    "intro": "Trees, hedging, shrubs and topiary, out in the rows at Mott Street. Come and see the actual plant before you buy it — tell us the height you’re after and how much screening you need, and we’ll show you what we’ve got.",
     "range": [
       "Trees & screening",
       "Hedging & shrubs",
@@ -23,7 +23,7 @@
     "name": "Soil & Compost",
     "image": "compost",
     "alt": "Bag of multipurpose compost photographed at Evergreen",
-    "intro": "Start from the ground up. Ask us about compost, topsoil and manure for planting, improving borders and preparing your next garden project.",
+    "intro": "Multipurpose compost, topsoil and farmyard manure. Tell us the area you’re covering and how deep you want it, and we’ll work out how much you need.",
     "range": [
       "Multipurpose compost",
       "Topsoil",
@@ -42,7 +42,7 @@
     "name": "Aggregates",
     "image": "aggregates",
     "alt": "Pale decorative aggregate in a bulk bag at the yard",
-    "intro": "Give paths, borders and landscaping projects a considered finish. Speak to us about decorative stone, gravel and the aggregates your project needs.",
+    "intro": "Decorative chippings, gravel and slate, in bulk bags. Bring the dimensions of the area you’re covering and we’ll tell you how many bags it takes — most people underestimate.",
     "range": [
       "Decorative chippings",
       "Gravel & stone",
@@ -61,10 +61,10 @@
     "name": "Turf & Lawn",
     "image": "turf",
     "alt": "Bag of grass seed photographed at Evergreen",
-    "intro": "Planning a new lawn or refreshing an existing one? Contact the team about turf and lawn supplies, quantities and current availability before you travel.",
+    "intro": "Turf, grass seed and the topsoil to go under it. Measure the lawn in square metres and ring us before you come — we’ll tell you what we can get and when.",
     "range": [
-      "Turf enquiries",
-      "Grass seed enquiries",
+      "Turf",
+      "Grass seed",
       "Lawn preparation"
     ],
     "prompt": "Lawn area / turf or seed",
@@ -75,9 +75,9 @@
     "name": "Paving & Landscaping",
     "image": "paving",
     "alt": "Paving sample display at Evergreen Garden Supplies",
-    "intro": "Find the starting point for your patio, path or garden renovation. Visit the yard to look at paving samples and discuss materials for your project.",
+    "intro": "Paving and landscaping materials, with samples at the yard you can look at in daylight rather than on a screen. Bring the measurements of the area and we’ll work out quantities with you.",
     "range": [
-      "Paving enquiries",
+      "Paving",
       "Patios & paths",
       "Landscaping materials"
     ],
@@ -89,9 +89,9 @@
     "name": "Garden Materials",
     "image": "materials",
     "alt": "Stacked timber garden materials at Evergreen",
-    "intro": "Bring the practical parts of your garden project together. Tell us what you are building and ask about timber, sand and other garden materials.",
+    "intro": "Timber, sand, ballast and the bits that hold a garden project together. Tell us what you’re building and the sizes you need, and we’ll tell you what we stock and what we can get in.",
     "range": [
-      "Timber enquiries",
+      "Timber",
       "Sand & ballast",
       "Project materials"
     ],

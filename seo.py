@@ -14,7 +14,7 @@ def metadata(config, title, description, path, page_schema=None):
         'telephone': config['phone'], 'email': config['email'],
         'image': image, 'logo': base + '/assets/logo.webp',
         'hasMap': config['maps_url'],
-        'description': 'Garden and landscaping supplies. Customers can visit and collect at Mott Street Nursery. Enquire about delivery around the M25; availability and arrangements are confirmed individually.',
+        'description': 'A working nursery and garden supplies yard at Mott Street, E4 7RW. Plants and trees, soil and compost, aggregates, turf, paving and timber. Visit and collect, or ask about delivery around the M25.',
         'address': {'@type': 'PostalAddress', 'streetAddress': 'Mott Street Nursery, Mott Street', 'postalCode': 'E4 7RW', 'addressCountry': 'GB'},
         'areaServed': 'Areas around the M25',
         'openingHoursSpecification': [
