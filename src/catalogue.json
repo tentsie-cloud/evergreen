@@ -16,7 +16,39 @@
       "image": "topiary",
       "alt": "Sculptural topiary plants photographed at Evergreen nursery",
       "caption": "Topiary at the nursery"
-    }
+    },
+    "gallery": [
+      {
+        "image": "plant-avenue",
+        "alt": "Standard trees lining the path at the nursery",
+        "name": "Standard trees"
+      },
+      {
+        "image": "plant-topiary-rows",
+        "alt": "Rows of potted topiary and conifers",
+        "name": "Potted topiary"
+      },
+      {
+        "image": "plant-catalpa",
+        "alt": "Catalpa grown as standards, in rows at the nursery",
+        "name": "Catalpa standards"
+      },
+      {
+        "image": "plant-spirals",
+        "alt": "Spiral-trained conifers in pots",
+        "name": "Spiral-trained conifers"
+      },
+      {
+        "image": "plant-topiary-pair",
+        "alt": "Ball and spiral topiary on the paved yard",
+        "name": "Ball & spiral topiary"
+      },
+      {
+        "image": "plant-cordyline",
+        "alt": "Cordyline in a pot at the nursery",
+        "name": "Cordyline"
+      }
+    ]
   },
   {
     "slug": "soil-compost",
@@ -35,7 +67,29 @@
       "image": "manure",
       "alt": "Bag of farmyard manure photographed at Evergreen",
       "caption": "Farmyard manure"
-    }
+    },
+    "gallery": [
+      {
+        "image": "soil-compost-bag",
+        "alt": "Bag of Evergreen multipurpose compost",
+        "name": "Evergreen multipurpose compost"
+      },
+      {
+        "image": "soil-topsoil-bag",
+        "alt": "Bag of topsoil for lawn and garden",
+        "name": "Topsoil"
+      },
+      {
+        "image": "soil-manure-bag",
+        "alt": "Bag of Evergreen farmyard manure",
+        "name": "Evergreen farmyard manure"
+      },
+      {
+        "image": "soil-bulk",
+        "alt": "Dark soil in a bulk bag at the yard",
+        "name": "By the bulk bag"
+      }
+    ]
   },
   {
     "slug": "aggregates",
@@ -54,7 +108,39 @@
       "image": "stone",
       "alt": "Slate pieces in a bulk bag at Evergreen yard",
       "caption": "Slate at the yard"
-    }
+    },
+    "gallery": [
+      {
+        "image": "agg-cotswold-buff",
+        "alt": "Bag of Cotswold Buff chippings at the yard",
+        "name": "Cotswold Buff chippings · 13–20mm"
+      },
+      {
+        "image": "agg-derbyshire-fawn",
+        "alt": "Bag of Derbyshire Fawn chippings",
+        "name": "Derbyshire Fawn chippings · 20mm"
+      },
+      {
+        "image": "agg-ice-blue",
+        "alt": "Bag of Ice Blue chippings",
+        "name": "Ice Blue chippings · 20mm"
+      },
+      {
+        "image": "agg-black-ice",
+        "alt": "Bag of Black Ice chippings",
+        "name": "Black Ice chippings · 14–20mm"
+      },
+      {
+        "image": "agg-scottish-cobbles",
+        "alt": "Bag of Scottish cobbles",
+        "name": "Scottish cobbles · 50–75mm"
+      },
+      {
+        "image": "agg-black-slate",
+        "alt": "Black slate in a bulk bag at the yard",
+        "name": "Black slate · 40mm"
+      }
+    ]
   },
   {
     "slug": "turf-lawn",
@@ -68,7 +154,14 @@
       "Lawn preparation"
     ],
     "prompt": "Lawn area / turf or seed",
-    "meta_description": "Turf and lawn supply enquiries at Evergreen Garden Supplies, E4 7RW. Tell us your lawn area and postcode for current prices and availability."
+    "meta_description": "Turf and lawn supply enquiries at Evergreen Garden Supplies, E4 7RW. Tell us your lawn area and postcode for current prices and availability.",
+    "gallery": [
+      {
+        "image": "turf-seed",
+        "alt": "Bag of grass seed at the yard",
+        "name": "Grass seed"
+      }
+    ]
   },
   {
     "slug": "paving-landscaping",
@@ -82,7 +175,14 @@
       "Landscaping materials"
     ],
     "prompt": "Material / finish / area to cover",
-    "meta_description": "Paving and landscaping supplies at Evergreen, Mott Street Nursery, E4 7RW. View samples at the yard and enquire about current prices, availability and delivery."
+    "meta_description": "Paving and landscaping supplies at Evergreen, Mott Street Nursery, E4 7RW. View samples at the yard and enquire about current prices, availability and delivery.",
+    "gallery": [
+      {
+        "image": "paving-samples",
+        "alt": "Porcelain paving sample display at the yard",
+        "name": "Porcelain paving samples"
+      }
+    ]
   },
   {
     "slug": "garden-materials",
@@ -96,6 +196,33 @@
       "Project materials"
     ],
     "prompt": "Material / dimensions / project details",
-    "meta_description": "Timber, sand and garden materials enquiries at Evergreen, E4 7RW. Send your materials list for current prices, availability and delivery or collection."
+    "meta_description": "Timber, sand and garden materials enquiries at Evergreen, E4 7RW. Send your materials list for current prices, availability and delivery or collection.",
+    "gallery": [
+      {
+        "image": "mat-timber",
+        "alt": "Stacked timber boards at the yard",
+        "name": "Timber boards"
+      },
+      {
+        "image": "mat-ballast",
+        "alt": "Bag of ballast",
+        "name": "Ballast"
+      },
+      {
+        "image": "mat-sharp-sand",
+        "alt": "Bag of washed sharp sand",
+        "name": "Washed sharp sand"
+      },
+      {
+        "image": "mat-type1",
+        "alt": "Bag of Type 1",
+        "name": "Type 1"
+      },
+      {
+        "image": "mat-postfast",
+        "alt": "Bags of Post Fast",
+        "name": "Post Fast"
+      }
+    ]
   }
 ]

@@ -18,3 +18,15 @@ document.querySelectorAll('[data-enquiry]').forEach(form => {
  const method = form.querySelector('[name="method"]');
  method.addEventListener('change', () => { const postcode = form.querySelector('[name="postcode"]'); postcode.disabled = method.value === 'Collection'; });
 });
+
+const video = document.querySelector('.yard-video');
+const vToggle = document.querySelector('[data-video-toggle]');
+if (video && vToggle) {
+ const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+ const label = playing => { vToggle.innerHTML = (playing ? 'Pause' : 'Play') + '<span aria-hidden="true"> ' + (playing ? '\u2758\u2758' : '\u25b6') + '</span>'; };
+ vToggle.hidden = false;
+ const start = () => { video.play().then(() => label(true)).catch(() => label(false)); };
+ if (!reduced.matches) start(); else label(false);
+ vToggle.addEventListener('click', () => { if (video.paused) start(); else { video.pause(); label(false); } });
+ reduced.addEventListener('change', e => { if (e.matches && !video.paused) { video.pause(); label(false); } });
+}
