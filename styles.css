@@ -32,3 +32,24 @@ h2{font-family:Arial,Helvetica,sans-serif;font-weight:600;font-size:30px;line-he
 .menu-toggle{min-width:66px;min-height:44px}.nojs-nav{display:flex;flex-wrap:wrap;gap:20px;padding-bottom:15px}.nojs-nav a{padding-block:8px}
 
 .supporting-photo{margin:30px 0 0}.supporting-photo img{width:100%;height:300px;object-fit:cover}.supporting-photo img[src*="manure"]{object-fit:contain;background:#e8e7df;padding:10px}.supporting-photo figcaption{font-size:11px;color:var(--muted);margin-top:8px}
+
+/* ===== MOTION BLOCK — delete everything between these markers to revert ===== */
+.category .frame,.feature .frame{display:block;overflow:hidden}
+@media(hover:hover) and (pointer:fine){
+.category .frame img,.feature .frame img{transition:transform .55s cubic-bezier(.2,.6,.2,1)}
+.category:hover .frame img,.feature:hover .frame img{transform:scale(1.04)}
+.category .arrow,.text-link span,.button span{transition:transform .25s ease}
+.category:hover .arrow{transform:translateX(4px)}
+.text-link:hover span,.button:hover span{transform:translate(3px,-3px)}
+.hero-intro .text-link:hover span{transform:translateY(3px)}
+.button{transition:background-color .2s ease,border-color .2s ease}
+.button:hover{filter:none}
+.primary:hover{background:var(--deep)}
+.light:hover{background:#dde5c8}
+.outline:hover{background:#2547351a}
+}
+@media(prefers-reduced-motion:reduce){
+.category .frame img,.feature .frame img,.category .arrow,.text-link span,.button span,.button{transition:none}
+.category:hover .frame img,.feature:hover .frame img{transform:none}
+}
+/* ===== END MOTION BLOCK ===== */
