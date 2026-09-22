@@ -33,7 +33,7 @@ def footer(context='garden supplies'):
 def shell(title,desc,body,path='/',context='garden supplies',schema=None):
  full_title=title+' | Evergreen Garden Supplies'
  head=metadata(config,full_title,desc,path,schema)
- html=f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(full_title)}</title>{head}<link rel="icon" href="/assets/logo.webp"><link rel="stylesheet" href="/styles.css"></head><body>{header()}<main id="main">{body}</main>{footer(context)}</body></html>'''
+ html=f'''<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(full_title)}</title>{head}<link rel="preload" href="/assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="/assets/logo.webp"><link rel="stylesheet" href="/styles.css"></head><body>{header()}<main id="main">{body}</main>{footer(context)}</body></html>'''
  dest=ROOT/path.strip('/') if path.endswith('.html') else ROOT/path.strip('/')/'index.html'
  dest.parent.mkdir(parents=True,exist_ok=True)
  dest.write_text(html)
