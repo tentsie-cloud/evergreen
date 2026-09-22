@@ -1,3 +1,15 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Local working notes, deliberately not published
+HANDOVER.md
+
+# Unreferenced media: kept on disk, not committed
+assets/evergreen-yard.mp4
+assets/evergreen-yard.webm
+assets/yard-film.webp
+assets/yard-sdr.webm
+assets/yard-standard.mp4
+assets/trees-480.webp
+assets/trees-960.webp

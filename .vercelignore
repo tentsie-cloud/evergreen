@@ -1,0 +1,20 @@
+# Source and tooling — the deploy should contain generated output only
+src/
+build.py
+seo.py
+serve.py
+Start Evergreen.command
+README.md
+HANDOVER.md
+.git/
+.DS_Store
+
+# Unreferenced media: not used by any page.
+# Keeps ~17.4MB off every deploy without deleting the files locally.
+assets/yard-film.webp
+assets/yard-standard.mp4
+assets/yard-sdr.webm
+assets/evergreen-yard.mp4
+assets/evergreen-yard.webm
+assets/trees-480.webp
+assets/trees-960.webp
