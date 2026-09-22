@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "plants-trees",
+    "name": "Plants & Trees",
+    "image": "plants",
+    "alt": "Rows of mature potted trees at Evergreen nursery",
+    "intro": "Bring structure, shelter and life to your garden. Explore plants and trees at our Mott Street nursery, and speak to us about the right sizes for your space.",
+    "range": [
+      "Trees & screening",
+      "Hedging & shrubs",
+      "Topiary & statement plants"
+    ],
+    "prompt": "Plant type / approximate height",
+    "meta_description": "Plants, trees, screening and topiary at Evergreen, Mott Street Nursery, E4 7RW. Ask for current sizes, prices and availability. Visit or enquire about delivery.",
+    "supporting_photo": {
+      "image": "topiary",
+      "alt": "Sculptural topiary plants photographed at Evergreen nursery",
+      "caption": "Topiary at the nursery"
+    }
+  },
+  {
+    "slug": "soil-compost",
+    "name": "Soil & Compost",
+    "image": "compost",
+    "alt": "Bag of multipurpose compost photographed at Evergreen",
+    "intro": "Start from the ground up. Ask us about compost, topsoil and manure for planting, improving borders and preparing your next garden project.",
+    "range": [
+      "Multipurpose compost",
+      "Topsoil",
+      "Farmyard manure"
+    ],
+    "prompt": "Material / bag or bulk requirement",
+    "meta_description": "Compost, topsoil and manure enquiries at Evergreen Garden Supplies, E4 7RW. Contact us for prices and availability, collection or delivery around the M25.",
+    "supporting_photo": {
+      "image": "manure",
+      "alt": "Bag of farmyard manure photographed at Evergreen",
+      "caption": "Farmyard manure"
+    }
+  },
+  {
+    "slug": "aggregates",
+    "name": "Aggregates",
+    "image": "aggregates",
+    "alt": "Pale decorative aggregate in a bulk bag at the yard",
+    "intro": "Give paths, borders and landscaping projects a considered finish. Speak to us about decorative stone, gravel and the aggregates your project needs.",
+    "range": [
+      "Decorative chippings",
+      "Gravel & stone",
+      "Slate"
+    ],
+    "prompt": "Stone type / colour / area to cover",
+    "meta_description": "Decorative stone, gravel and slate at Evergreen, Mott Street Nursery, E4 7RW. Enquire about colours, quantities, current prices and delivery.",
+    "supporting_photo": {
+      "image": "stone",
+      "alt": "Slate pieces in a bulk bag at Evergreen yard",
+      "caption": "Slate at the yard"
+    }
+  },
+  {
+    "slug": "turf-lawn",
+    "name": "Turf & Lawn",
+    "image": "turf",
+    "alt": "Bag of grass seed photographed at Evergreen",
+    "intro": "Planning a new lawn or refreshing an existing one? Contact the team about turf and lawn supplies, quantities and current availability before you travel.",
+    "range": [
+      "Turf enquiries",
+      "Grass seed enquiries",
+      "Lawn preparation"
+    ],
+    "prompt": "Lawn area / turf or seed",
+    "meta_description": "Turf and lawn supply enquiries at Evergreen Garden Supplies, E4 7RW. Tell us your lawn area and postcode for current prices and availability."
+  },
+  {
+    "slug": "paving-landscaping",
+    "name": "Paving & Landscaping",
+    "image": "paving",
+    "alt": "Paving sample display at Evergreen Garden Supplies",
+    "intro": "Find the starting point for your patio, path or garden renovation. Visit the yard to look at paving samples and discuss materials for your project.",
+    "range": [
+      "Paving enquiries",
+      "Patios & paths",
+      "Landscaping materials"
+    ],
+    "prompt": "Material / finish / area to cover",
+    "meta_description": "Paving and landscaping supplies at Evergreen, Mott Street Nursery, E4 7RW. View samples at the yard and enquire about current prices, availability and delivery."
+  },
+  {
+    "slug": "garden-materials",
+    "name": "Garden Materials",
+    "image": "materials",
+    "alt": "Stacked timber garden materials at Evergreen",
+    "intro": "Bring the practical parts of your garden project together. Tell us what you are building and ask about timber, sand and other garden materials.",
+    "range": [
+      "Timber enquiries",
+      "Sand & ballast",
+      "Project materials"
+    ],
+    "prompt": "Material / dimensions / project details",
+    "meta_description": "Timber, sand and garden materials enquiries at Evergreen, E4 7RW. Send your materials list for current prices, availability and delivery or collection."
+  }
+]
